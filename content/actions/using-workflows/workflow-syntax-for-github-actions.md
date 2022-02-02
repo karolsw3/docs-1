@@ -706,7 +706,7 @@ Prevents a job from failing when a step fails. Set to `true` to allow a job to p
 
 ### `jobs.<job_id>.steps[*].timeout-minutes`
 
-The maximum number of minutes to run the step before killing the process.
+The maximum number of minutes to run the step before killing the process. Default: 10
 
 ## `jobs.<job_id>.timeout-minutes`
 
